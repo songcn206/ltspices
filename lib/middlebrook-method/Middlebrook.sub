@@ -1,0 +1,8 @@
+.SUBCKT Middlebrook VX VY IX IY V_IX V_IY Params: Amp=1 Phs=0
+V_IY N001 IY 0
+V_IX IX N001 0
+B1 V_IY 0 V=I(V_IY)
+B2 V_IX 0 V=I(V_IX)
+I1 0 N001 AC {Amp} {Phs}
+V1 VX VY AC {Amp} {Phs}
+.ENDS
