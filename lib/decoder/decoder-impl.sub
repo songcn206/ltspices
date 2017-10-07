@@ -1,31 +1,31 @@
 .subckt decoder-4ch SEL ENABLE OUT_0 OUT_1 OUT_2 OUT_3
-XU0 SEL ENABLE OUT_0 decoder-element Vcenter=0, Vdelta=0.5
-XU1 SEL ENABLE OUT_1 decoder-element Vcenter=1, Vdelta=0.5
-XU2 SEL ENABLE OUT_2 decoder-element Vcenter=2, Vdelta=0.5
-XU3 SEL ENABLE OUT_3 decoder-element Vcenter=3, Vdelta=0.5
+XU0 SEL ENABLE OUT_0 decoder-element Vmin=0, Vmax=0.9
+XU1 SEL ENABLE OUT_1 decoder-element Vmin=1, Vmax=1.9
+XU2 SEL ENABLE OUT_2 decoder-element Vmin=2, Vmax=2.9
+XU3 SEL ENABLE OUT_3 decoder-element Vmin=3, Vmax=3.9
 .ends decoder-4ch
 
 .subckt decoder-8ch SEL ENABLE OUT_0 OUT_1 OUT_2 OUT_3 OUT_4 OUT_5 OUT_6 OUT_7
-XU0 SEL ENABLE OUT_0 decoder-element Vcenter=0, Vdelta=0.5
-XU1 SEL ENABLE OUT_1 decoder-element Vcenter=1, Vdelta=0.5
-XU2 SEL ENABLE OUT_2 decoder-element Vcenter=2, Vdelta=0.5
-XU3 SEL ENABLE OUT_3 decoder-element Vcenter=3, Vdelta=0.5
-XU4 SEL ENABLE OUT_4 decoder-element Vcenter=4, Vdelta=0.5
-XU5 SEL ENABLE OUT_5 decoder-element Vcenter=5, Vdelta=0.5
-XU6 SEL ENABLE OUT_6 decoder-element Vcenter=6, Vdelta=0.5
-XU7 SEL ENABLE OUT_7 decoder-element Vcenter=7, Vdelta=0.5
-.ends decoder-8ch
+XU0 SEL ENABLE OUT_0 decoder-element Vmin=0, Vmax=0.9
+XU1 SEL ENABLE OUT_1 decoder-element Vmin=1, Vmax=1.9
+XU2 SEL ENABLE OUT_2 decoder-element Vmin=2, Vmax=2.9
+XU3 SEL ENABLE OUT_3 decoder-element Vmin=3, Vmax=3.9
+XU4 SEL ENABLE OUT_4 decoder-element Vmin=4, Vmax=4.9
+XU5 SEL ENABLE OUT_5 decoder-element Vmin=5, Vmax=5.9
+XU6 SEL ENABLE OUT_6 decoder-element Vmin=6, Vmax=6.9
+XU7 SEL ENABLE OUT_7 decoder-element Vmin=7, Vmax=7.9
+.ends decoder-8ch                                 
 
 .subckt decoder-10ch SEL ENABLE OUT_0 OUT_1 OUT_2 OUT_3 OUT_4 OUT_5 OUT_6 OUT_7 OUT_8 OUT_9
-XU0 SEL ENABLE OUT_0 decoder-element Vcenter=0, Vdelta=0.5
-XU1 SEL ENABLE OUT_1 decoder-element Vcenter=1, Vdelta=0.5
-XU2 SEL ENABLE OUT_2 decoder-element Vcenter=2, Vdelta=0.5
-XU3 SEL ENABLE OUT_3 decoder-element Vcenter=3, Vdelta=0.5
-XU4 SEL ENABLE OUT_4 decoder-element Vcenter=4, Vdelta=0.5
-XU5 SEL ENABLE OUT_5 decoder-element Vcenter=5, Vdelta=0.5
-XU6 SEL ENABLE OUT_6 decoder-element Vcenter=6, Vdelta=0.5
-XU7 SEL ENABLE OUT_7 decoder-element Vcenter=7, Vdelta=0.5
-XU8 SEL ENABLE OUT_8 decoder-element Vcenter=8, Vdelta=0.5
-XU9 SEL ENABLE OUT_9 decoder-element Vcenter=9, Vdelta=0.5
-.ends decoder-10ch
+XU0 SEL ENABLE OUT_0 decoder-element Vmin=0, Vmax=0.9
+XU1 SEL ENABLE OUT_1 decoder-element Vmin=1, Vmax=1.9
+XU2 SEL ENABLE OUT_2 decoder-element Vmin=2, Vmax=2.9
+XU3 SEL ENABLE OUT_3 decoder-element Vmin=3, Vmax=3.9
+XU4 SEL ENABLE OUT_4 decoder-element Vmin=4, Vmax=4.9
+XU5 SEL ENABLE OUT_5 decoder-element Vmin=5, Vmax=5.9
+XU6 SEL ENABLE OUT_6 decoder-element Vmin=6, Vmax=6.9
+XU7 SEL ENABLE OUT_7 decoder-element Vmin=7, Vmax=7.9
+XU8 SEL ENABLE OUT_8 decoder-element Vmin=8, Vmax=8.9
+XU9 SEL ENABLE OUT_9 decoder-element Vmin=9, Vmax=9.9
+.ends decoder-10ch                                
 
