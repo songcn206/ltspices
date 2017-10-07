@@ -7,3 +7,9 @@ Thumbs.db
 # Dist #
 /dist/*.asy
 /dist/*.asc
+
+# LTSpice Output File #
+/lib/**/*.log
+/lib/**/*.net
+/lib/**/*.op.raw
+/lib/**/*.raw
