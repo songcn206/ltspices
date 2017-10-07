@@ -1,0 +1,11 @@
+.subckt VCR P+ P- REF+ REF-
+B1 P+ P- I=V(P+,P-) / V(REF+,REF-)
+.ends
+
+.subckt VCL P+ P- REF+ REF-
+B1 P+ P- V=ddt( I(B1)) * V(REF+,REF-)
+.ends
+
+.subckt VCC P+ P- REF+ REF-
+B1 P+ P- I=ddt( V(P+,P-)) * V(REF+,REF-)
+.ends
