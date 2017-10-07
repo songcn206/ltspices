@@ -1,0 +1,17 @@
+.subckt @decoder DUMMY
+R1 DUMMY 0 1G
+.ends @decoder
+
+.subckt decoder-element SEL ENABLE OUT
+B2 OUT 0 V= ( buf( V(ENABLE) ) & V(SEL) >= { Vcenter - Vdelta } & V(SEL) < { Vcenter + Vdelta} )
+.param Vdelta=0.5
+.param Vcenter=1
+.ends decoder-element
+
+.subckt decoder-on OUT
+V1 OUT 0 1
+.ends decoder-on
+
+.subckt decoder-off OUT
+V1 OUT 0 0
+.ends decoder-off

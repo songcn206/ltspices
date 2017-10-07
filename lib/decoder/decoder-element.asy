@@ -4,7 +4,7 @@ RECTANGLE Normal 96 32 -96 -33
 WINDOW 39 0 48 Center 2
 SYMATTR SpiceLine Vcenter=1, Vdelta=0.5
 SYMATTR Prefix X
-SYMATTR Value selector-element
+SYMATTR Value decoder-element
 PIN -96 -16 LEFT 8
 PINATTR PinName SEL
 PINATTR SpiceOrder 1
