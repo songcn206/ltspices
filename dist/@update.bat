@@ -7,7 +7,11 @@ rem カレントディレクトリ取得
 for /f "usebackq tokens=*" %%a in (`cd`) do @set TARGET=%%a
 
 rem ファイルをコピーする
-forfiles /p .. /s /m *.asc /c "cmd /c @copy /Y @path %TARGET%"
-forfiles /p .. /s /m *.asy /c "cmd /c @copy /Y @path %TARGET%"
+forfiles /p ..\lib /s /m *.asc /c "cmd /c @copy /Y @path %TARGET%"
+forfiles /p ..\lib /s /m *.asy /c "cmd /c @copy /Y @path %TARGET%"
+forfiles /p ..\lib /s /m *.sub /c "cmd /c @copy /Y @path %TARGET%"
+
+rem テスト用ファイルは除外
+del *.test.asc
 
 pause -1

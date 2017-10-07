@@ -1,7 +1,11 @@
 Version 4
 SymbolType BLOCK
 RECTANGLE Normal 48 16 -48 -16
-TEXT 0 0 Center 2 ON
+WINDOW 3 0 0 Center 2
+SYMATTR Value ON
+SYMATTR Prefix X
+SYMATTR SpiceModel selector.sub
+SYMATTR Value2 selector-on
 PIN 48 0 NONE 8
 PINATTR PinName OUT
 PINATTR SpiceOrder 1
