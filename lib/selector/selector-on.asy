@@ -1,0 +1,7 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 48 16 -48 -16
+TEXT 0 0 Center 2 ON
+PIN 48 0 NONE 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 1

@@ -7,9 +7,13 @@ Thumbs.db
 # Dist #
 /dist/*.asy
 /dist/*.asc
+/generator/**/*
+
+# Node Files #
+/node_modules
 
 # LTSpice Output File #
-/lib/**/*.log
-/lib/**/*.net
-/lib/**/*.op.raw
-/lib/**/*.raw
+/**/*.log
+/**/*.net
+/**/*.op.raw
+/**/*.raw
