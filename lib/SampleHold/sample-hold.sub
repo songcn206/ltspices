@@ -1,0 +1,8 @@
+.subckt SampleHold SAMPLE Vin+ Vin- Vout+ Vout-
+B1 N001 0 V=V(Vin+,Vin-)
+S1 Vsmp N001 SAMPLE 0 SW
+C1 Vsmp 0 1
+B2 Vout+ Vout- V=V(Vsmp)
+.ic V(Vsmp)=0V
+.model SW SW(VT=0.5,Ron=1f,Roff=1T)
+.ends SampleHold
