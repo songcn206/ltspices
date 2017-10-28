@@ -1,0 +1,17 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 38 16 64
+LINE Normal 16 28 16 0
+LINE Normal 0 28 32 28
+LINE Normal 6 36 26 36
+LINE Normal 26 38 6 38
+LINE Normal 26 36 26 38
+LINE Normal 6 36 6 38
+WINDOW 0 24 8 Left 2
+SYMATTR Prefix V
+PIN 16 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 16 64 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

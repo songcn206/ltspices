@@ -18,3 +18,6 @@ Thumbs.db
 /**/*.net
 /**/*.op.raw
 /**/*.raw
+
+
+/test/**/*

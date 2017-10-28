@@ -1,0 +1,39 @@
+Version 4
+SymbolType CELL
+LINE Normal -64 -64 -64 64
+LINE Normal -64 -64 64 0
+LINE Normal -64 64 64 0
+LINE Normal 0 -64 0 -32
+LINE Normal 0 64 0 32
+LINE Normal -48 -48 -56 -48
+LINE Normal -52 -44 -52 -52
+LINE Normal -48 48 -56 48
+LINE Normal 8 -40 16 -40
+LINE Normal 12 -36 12 -44
+LINE Normal 4 56 12 56
+WINDOW 0 20 -44 Left 2
+WINDOW 3 32 49 Left 2
+SYMATTR Value OPA277_Trim
+SYMATTR Prefix X
+SYMATTR Description Texas Instruments OPamp With Trim
+PIN -64 -48 NONE 0
+PINATTR PinName In+
+PINATTR SpiceOrder 1
+PIN -64 48 NONE 0
+PINATTR PinName FB
+PINATTR SpiceOrder 2
+PIN 0 -64 NONE 0
+PINATTR PinName V+
+PINATTR SpiceOrder 3
+PIN 0 64 NONE 0
+PINATTR PinName V-
+PINATTR SpiceOrder 4
+PIN 64 0 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
+PIN -64 16 LEFT 5
+PINATTR PinName TRM8
+PINATTR SpiceOrder 6
+PIN -64 -16 LEFT 5
+PINATTR PinName TRM1
+PINATTR SpiceOrder 7
