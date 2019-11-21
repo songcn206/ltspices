@@ -17,9 +17,10 @@ LINE Normal -38 57 -46 57
 CIRCLE Normal -32 8 32 72
 WINDOW 0 24 0 Left 2
 WINDOW 3 24 88 Left 2
-SYMATTR Value VCR
+SYMATTR Value VCR_Ratio
 SYMATTR Prefix X
 SYMATTR Description Voltage Controlled Resistor(You must .lib VCEs.lib)
+SYMATTR SpiceLine R0=1u R1=1G
 PIN 0 0 NONE 0
 PINATTR PinName P+
 PINATTR SpiceOrder 1

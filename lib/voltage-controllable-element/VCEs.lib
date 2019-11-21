@@ -9,3 +9,18 @@ B1 P+ P- V=ddt( I(B1)) * V(REF+,REF-)
 .subckt VCC P+ P- REF+ REF-
 B1 P+ P- I=ddt( V(P+,P-)) * V(REF+,REF-)
 .ends
+
+.subckt VCR_Ratio P+ P- REF+ REF- Params: R0=1u R1=1G
+B1 P+ P- I=V(P+,P-) / V(Rvalue)
+B2 Rvalue 0 V=({R1}-{R0})*V(REF+,REF-)+{R0}
+.ends
+
+.subckt VCL_Ratio P+ P- REF+ REF- Params:  L0=1u L1=100u
+B1 P+ P- V=ddt( I(B1)) * V(Lvalue)
+B2 Lvalue 0 V=({L1}-{L0})*V(REF+,REF-)+{L0}
+.ends
+
+.subckt VCC_Ratio P+ P- REF+ REF- Params:  C0=1u C1=100u
+B1 P+ P- I=ddt( V(P+,P-)) * V(Cvalue)
+B2 Cvalue 0 V=({C1}-{C0})*V(REF+,REF-)+{C0}
+.ends
