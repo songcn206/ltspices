@@ -1,5 +1,0 @@
-.subckt measure-block DUMMY
-.meas TRAN VA_1_1 FIND V(VA) when V(LATCH)=0.5 RISE=1
-.meas TRAN VA_1_2 FIND V(VA) when V(LATCH)=0.5 RISE=2
-.meas TRAN VA_1_3 FIND V(VA) when V(LATCH)=0.5 RISE=3
-.ends measure-block
